@@ -1,4 +1,5 @@
-public class MyClass {
+// The name of the file has to match the name of the class
+public class Problem3 {
     public static void main(String args[]) {
       
       System.out.println("* ***** *****");

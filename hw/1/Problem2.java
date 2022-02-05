@@ -1,4 +1,5 @@
-public class MyClass {
+// The name of the file has to match the name of the class
+public class Problem2 {
     public static void main(String args[]) {
       double v1=11.5;
       double v0=4.6;
