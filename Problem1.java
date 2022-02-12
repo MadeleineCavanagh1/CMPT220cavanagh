@@ -11,5 +11,6 @@ import java.util.Scanner;
 
     System.out.println("The diameter is:" + diameter);
     System.out.println("The area is:" + area);
+
   }
 }
