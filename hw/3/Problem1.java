@@ -11,16 +11,16 @@ import java.util.Scanner;
         double a= in.nextDouble();
         double b= in.nextDouble();
         double c= in.nextDouble();
-        double discriminant= 0;
-        discriminant= (Math.pow(b,2)) - 4* a*c;
-        double x =0;
-        x = Math.pow(discriminant, 0.5);
-        double denom= 0;
-        denom= 2 * a;
-        double root1= 0;
-        root1= (-b - x/ denom);
-        double root2= 0;
-        root2= (-b + x/ denom);
+//        double discriminant= 0;
+        double discriminant= (Math.pow(b,2)) - 4* a*c;
+//        double x =0;
+        double x = Math.pow(discriminant, 0.5);
+//        double denom= 0;
+        double denom= 2 * a;
+//        double root1= 0;
+        double root1= (-b - x)/ denom; // JA
+//        double root2= 0;
+        double root2= (-b + x)/ denom; // JA
 
         if (discriminant > 0)
             System.out.println("This equation has two real roots: " + root1 + "and" + root2);

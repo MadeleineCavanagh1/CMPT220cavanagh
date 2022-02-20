@@ -12,7 +12,7 @@ public class Problem3 {
         double x2= in.nextDouble();
         double y2= in.nextDouble();
         
-        double p = y2 - y1 / x2 - x1;
+        double p = (y2 - y1) / (x2 - x1); // JA
         double b = y1 - p * x1;
 
         if(p > 1.0) {
