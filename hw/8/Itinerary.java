@@ -8,8 +8,8 @@ class Itinerary{
     }
     public int getTotalTravelTime(){
         int totalTime = getTotalFlightTime();
-        for (int i = 0; i < flight.size() - 1;i++){
-            long time =flights.get(i + 1).getDepartureTime().getTimeInMillis()-flights.get(i).getArrivalTime().getTimeinMillis();
+        for (int i = 0; i < flights.size() - 1;i++){
+            long time =flights.get(i + 1).getDepartureTime().getTimeInMillis()-flights.get(i).getArrivalTime().getTimeInMillis();
             totalTime += (int)time / 60000;
         }
         return totalTime;
@@ -18,6 +18,6 @@ class Itinerary{
         int flightTime = 0;
         for(Flight flight: flights)
         flightTime += flight.getFlightTime();
-        return fligtTime;
+        return flightTime;
     }
 }

@@ -1,8 +1,9 @@
 import java.util.ArrayList;
-import java.util.Flight;
-import java.util.Itinerary;
+//import java.util.Flight;
+//import java.util.Itinerary;
 import java.util.GregorianCalendar;
 
+// JA: Compilation issues
 public class Problem3{
 
 public static void main(String[] args) {
