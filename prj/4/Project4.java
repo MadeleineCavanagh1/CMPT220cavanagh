@@ -2,6 +2,7 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+// JA: UML?
 public class Project4 {
     public static void main(String[] args) throws Exception {
 		Scanner project = new Scanner(System.in);
@@ -72,6 +73,7 @@ public class Project4 {
 		return list;// this will return the list
 	}
 
+	// JA: This changes the requirements of the problem
 	private static BabyName findName(String name, String gender, ArrayList<BabyName> names) {
 	///searches for baby name inside of the array
 		boolean found = false;

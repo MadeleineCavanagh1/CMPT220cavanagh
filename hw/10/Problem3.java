@@ -19,7 +19,7 @@ public class Problem3 {
     }
 }
 
-public class Rational extends Number implements Comparable<Rational> {
+class Rational extends Number implements Comparable<Rational> {
     // numerator and denominator 
     private long numerator = 0;
     private long denominator = 1;

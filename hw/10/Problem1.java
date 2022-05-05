@@ -20,6 +20,7 @@ public class Problem1{
 }
 
 class Time implements Comparable{
+    // JA: These are not needed
     private int hour;
     private int min;
     private int sec;

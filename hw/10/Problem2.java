@@ -31,7 +31,7 @@ class Chicken extends Animal {
 class Tiger extends Animal {
 }
 
-public class AnimalTest {
+public class Problem2 {
     public static void main(String[] args) throws CloneNotSupportedException {
         Animal [] list= new Animal[5];
         //establishes a chicken object

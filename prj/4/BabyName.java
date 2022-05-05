@@ -1,4 +1,5 @@
 public class BabyName{ 
+    // JA: These fields should be private
     int rank; 
     int year; 
     String name; 
