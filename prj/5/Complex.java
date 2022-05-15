@@ -1,4 +1,4 @@
-public class Complex {
+public class Complex extends Number implements Comparable<Complex>,Cloneable{
     //integer division 
     double x, y;
 
@@ -57,5 +57,30 @@ public class Complex {
             return "" + x;
         else
             return "(" + x + " + " + y + "i)";
+    }
+    @Override
+    public int compareTo(Complex o) {
+        // TODO Auto-generated method stub
+        return 0;
+    }
+    @Override
+    public int intValue() {
+        // TODO Auto-generated method stub
+        return 0;
+    }
+    @Override
+    public long longValue() {
+        // TODO Auto-generated method stub
+        return 0;
+    }
+    @Override
+    public float floatValue() {
+        // TODO Auto-generated method stub
+        return 0;
+    }
+    @Override
+    public double doubleValue() {
+        // TODO Auto-generated method stub
+        return 0;
     }
 }

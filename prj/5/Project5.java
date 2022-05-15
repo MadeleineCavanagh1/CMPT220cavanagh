@@ -2,7 +2,7 @@
 import java.util.Scanner;
 
 //begin program
-public class ComplexTestfile {
+public class Project5 {
     
     public static void main(String args[]) {
         //Scanner 
